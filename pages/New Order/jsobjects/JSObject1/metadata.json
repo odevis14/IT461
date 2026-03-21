@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69b86ef55ca3850fbb798080_1a5b2f5b-f425-4a2e-8642-962a6662e680",
+  "id": "New Order_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "New Order",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "seedOrders",
+        "value": "[{\n  order_id: 1001,\n  customer: \"John Smith\",\n  phone: \"617-555-1001\",\n  status: \"Received\",\n  dropoff: \"2026-03-16\",\n  pickup: \"2026-03-18\",\n  total: 18,\n  paid: false,\n  item_summary: \"2 shirts, 1 pants\",\n  notes: \"Light starch\"\n}, {\n  order_id: 1002,\n  customer: \"Sarah Lee\",\n  phone: \"617-555-1002\",\n  status: \"Cleaning\",\n  dropoff: \"2026-03-15\",\n  pickup: \"2026-03-17\",\n  total: 25,\n  paid: true,\n  item_summary: \"3 blouses, 1 skirt\",\n  notes: \"Delicate fabric\"\n}]"
+      }
+    ]
+  }
+}
