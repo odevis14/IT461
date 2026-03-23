@@ -74,11 +74,16 @@ export default {
     });
   },
 
-  async completeSelectedOrder() {
+  async updateSelectedStatus(newStatus) {
     const selected = tblOrders.selectedRow;
 
     if (!selected || !selected.order_id) {
-      showAlert("Select an order first", "warning");
+      showAlert("Select an order row first", "warning");
+      return;
+    }
+
+    if (!newStatus) {
+      showAlert("Choose a status first", "warning");
       return;
     }
 
@@ -86,17 +91,17 @@ export default {
       Number(order.order_id) === Number(selected.order_id)
         ? {
             ...order,
-            status: "Completed",
-            paid: true
+            status: newStatus,
+            paid: newStatus === "Completed" ? true : order.paid
           }
         : order
     );
 
     await storeValue("orders", updated);
-    showAlert(`Order #${selected.order_id} completed`, "success");
+    showAlert(`Order #${selected.order_id} set to ${newStatus}`, "success");
   },
 
-  async Button1CopyonClick() {
-    return await this.completeSelectedOrder();
+  async Select2onOptionChange() {
+    return await this.updateSelectedStatus(Select2.selectedOptionValue);
   }
 }

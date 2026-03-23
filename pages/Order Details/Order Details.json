@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "69b86ef55ca3850fbb798080_66b01039-f26c-4734-8c73-8c22d05bcd9a",
+  "gitSyncId": "69b86ef55ca3850fbb798080_4d018b84-14c6-4d0d-bdb9-0fec6f2f327a",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 670,
+          "bottomRow": 570,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 580,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 56,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Dashboard",
-    "slug": "dashboard"
+    "name": "Order Details",
+    "slug": "order-details"
   }
 }

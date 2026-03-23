@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 67,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wgxjassx7f",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Set status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 63,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 56,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{JSObject1.Select2onOptionChange();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 63,
+  "originalTopRow": 56,
+  "parentColumnSpace": 15.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "serverSideFiltering": false,
+  "sourceData": "{{[\n  { label: \"Received\", value: \"Received\" },\n  { label: \"Cleaning\", value: \"Cleaning\" },\n  { label: \"Ready for Pickup\", value: \"Ready for Pickup\" },\n  { label: \"Completed\", value: \"Completed\" }\n]}}",
+  "topRow": 60,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "otanednzz5",
+  "widgetName": "Select2"
+}

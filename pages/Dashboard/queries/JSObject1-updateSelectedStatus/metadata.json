@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b86ef55ca3850fbb798080_cb1ebb73-3bb4-4720-9809-bdf543199d4f",
-  "id": "Dashboard_JSObject1.addOrder",
+  "gitSyncId": "69b86ef55ca3850fbb798080_af0e8079-4724-44cf-8b5e-50fa4da7010e",
+  "id": "Dashboard_JSObject1.updateSelectedStatus",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "formData"
+          "name": "newStatus"
         }
       ],
       "paginationType": "NONE",
@@ -26,8 +26,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "JSObject1.addOrder",
-    "name": "addOrder",
+    "fullyQualifiedName": "JSObject1.updateSelectedStatus",
+    "name": "updateSelectedStatus",
     "pageId": "Dashboard",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
