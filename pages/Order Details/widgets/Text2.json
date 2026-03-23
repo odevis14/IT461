@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "hirhbgkzca",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 20,
+  "originalTopRow": 13,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 52,
+  "shouldTruncate": false,
+  "text": "Order ID: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.order_id || \"N/A\" }}\nDrop-off: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.dropoff || \"N/A\" }} \nPick-up: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.pickup || \"N/A\" }} \nStatus: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.status || \"N/A\" }}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 13,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "2qakbf5yei",
+  "widgetName": "Text2"
+}

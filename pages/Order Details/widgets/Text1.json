@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 24,
+  "bottomRow": 13,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -20,33 +23,33 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "1vjuxe1w36",
-  "leftColumn": 2,
+  "key": "hirhbgkzca",
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 21,
-  "mobileLeftColumn": 18,
-  "mobileRightColumn": 34,
-  "mobileTopRow": 17,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 27,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 21,
-  "originalTopRow": 17,
+  "originalBottomRow": 13,
+  "originalTopRow": 8,
   "overflow": "NONE",
-  "parentColumnSpace": 17.9375,
+  "parentColumnSpace": 10.5625,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 51,
   "shouldTruncate": false,
-  "text": "Active orders",
+  "text": "Customer: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.customer || \"N/A\" }}\nPhone: {{ (appsmith.store.orders || []).find(o => \n    String(o.order_id) === InputOrder.text || \n    o.customer.toLowerCase() === InputOrder.text.toLowerCase()\n)?.phone || \"N/A\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 20,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "rjv7j25zs5",
-  "widgetName": "Text2"
+  "widgetId": "wry8bmh43u",
+  "widgetName": "Text1"
 }
