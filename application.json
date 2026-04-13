@@ -28,6 +28,10 @@
     {
       "id": "Process Pickups",
       "isDefault": false
+    },
+    {
+      "id": "Vendors",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
