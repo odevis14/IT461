@@ -1,16 +1,13 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "borderRadius": "1.5rem",
+  "bottomRow": 33,
   "boxShadow": "none",
   "defaultOptionValue": "Received",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     },
     {
       "key": "sourceData"
@@ -32,9 +29,10 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Status",
+  "labelTextColor": "#18181b",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 43,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -45,16 +43,18 @@
   "needsErrorInfo": false,
   "optionLabel": "label",
   "optionValue": "value",
+  "originalBottomRow": 33,
+  "originalTopRow": 26,
   "parentColumnSpace": 7.359375,
   "parentId": "0",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 21,
+  "rightColumn": 63,
   "serverSideFiltering": false,
   "sourceData": "{{[\n  { label: \"Received\", value: \"Received\" },\n  { label: \"Cleaning\", value: \"Cleaning\" },\n  { label: \"Ready for Pickup\", value: \"Ready for Pickup\" },\n  { label: \"Completed\", value: \"Completed\" }\n]}}",
-  "topRow": 11,
+  "topRow": 26,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "twv6ae92l8",

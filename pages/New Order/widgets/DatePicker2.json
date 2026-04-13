@@ -1,8 +1,8 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "borderRadius": "1.5rem",
+  "bottomRow": 16,
   "boxShadow": "none",
   "closeOnSelection": true,
   "dateFormat": "YYYY-MM-DD HH:mm",
@@ -11,9 +11,6 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -27,9 +24,10 @@
   "label": "Pickup Date",
   "labelAlignment": "left",
   "labelPosition": "Top",
+  "labelTextColor": "#18181b",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 41,
+  "leftColumn": 43,
   "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
   "minDate": "1920-12-31T18:30:00.000Z",
@@ -40,15 +38,17 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
+  "originalBottomRow": 16,
+  "originalTopRow": 10,
   "parentColumnSpace": 7.359375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 63,
   "shortcuts": false,
   "timePrecision": "minute",
-  "topRow": 11,
+  "topRow": 10,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
   "widgetId": "asq896wrid",
