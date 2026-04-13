@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 92,
+  "borderRadius": "1.5rem",
+  "bottomRow": 37,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -9,9 +9,6 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicPropertyPathList": [
@@ -36,7 +33,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 27,
   "needsErrorInfo": false,
-  "onClick": "{{Vendor.addVendor()}}",
+  "onClick": "{{Vendor.addDelivery()}}",
   "originalBottomRow": 37,
   "originalTopRow": 33,
   "parentColumnSpace": 10.5625,
@@ -49,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 39,
   "text": "Add Delivery",
-  "topRow": 88,
+  "topRow": 33,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8k9209dxlm",

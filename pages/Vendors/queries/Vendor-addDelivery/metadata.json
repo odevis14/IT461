@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b86ef55ca3850fbb798080_fd208c74-69f7-4f1e-ba41-495e7b02fbe3",
-  "id": "Vendors_Vendor.addVendor",
+  "gitSyncId": "69b86ef55ca3850fbb798080_c88fa84f-359c-443f-b616-cf3c16bcc8ab",
+  "id": "Vendors_Vendor.addDelivery",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,8 +22,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "Vendor.addVendor",
-    "name": "addVendor",
+    "fullyQualifiedName": "Vendor.addDelivery",
+    "name": "addDelivery",
     "pageId": "Vendors",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

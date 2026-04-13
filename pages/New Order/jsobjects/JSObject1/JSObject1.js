@@ -72,6 +72,7 @@ export default {
 
     // Let the user know it worked.
     showAlert("Order added", "success");
+		storeValue("itemSummary","");	
 
     // Send them back to the dashboard after saving.
     navigateTo("Dashboard", {}, "SAME_WINDOW");
@@ -88,8 +89,7 @@ export default {
       pickup: DatePicker2.selectedDate,
       total: Input3.text,
       paid: Checkbox1.isChecked,
-      item_summary: Input4.text,
-      notes: Input5.text
+			item_summary: appsmith.store.itemSummary || ""
     });
   }
 }

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "69b86ef55ca3850fbb798080_e15a9bde-db48-4a97-89ad-893165c21fda",
+  "id": "New Order_Items",
+  "unpublishedCollection": {
+    "name": "Items",
+    "pageId": "New Order",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

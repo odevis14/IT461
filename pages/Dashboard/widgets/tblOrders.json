@@ -42,9 +42,10 @@
     "paid",
     "phone",
     "item_summary",
-    "notes"
+    "notes",
+    "customColumn1"
   ],
-  "columnUpdatedAt": 1773850412676,
+  "columnUpdatedAt": 1776107520276,
   "columnWidthMap": {
     "dropoff": 209,
     "paid": 71.00000000000001,
@@ -96,14 +97,30 @@
     },
     {
       "key": "primaryColumns.notes.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
   "enableClientSideSearch": true,
   "endOfData": false,
   "evenRowColor": "#f4f4f5",
@@ -137,6 +154,48 @@
   "parentRowSpace": 10,
   "primaryColumnId": "order_id",
   "primaryColumns": {
+    "customColumn1": {
+      "alias": "delete_order",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{tblOrders.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{tblOrders.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{tblOrders.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonLabel": "Delete",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "#f4f4f5",
+      "columnType": "button",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "delete_order",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{ JSObject1.deleteOrder(currentRow.order_id) }}",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "textColor": "#18181b",
+      "textSize": "1rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "customer": {
       "alias": "customer",
       "allowCellWrapping": false,

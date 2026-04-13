@@ -1,24 +1,17 @@
 {
   "allowZoom": true,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "bottomRow": 44,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": [
-    {
-      "lat": 40.7128,
-      "long": -74.006,
-      "title": "New York"
-    }
-  ],
+  "defaultMarkers": "[\n  {\n    \"lat\": 40.7128,\n    \"long\": -74.006,\n    \"title\": \"Boston\"\n  }\n]\n\n",
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "boxShadow"
     }
   ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,
@@ -30,8 +23,9 @@
   "key": "np202pelqa",
   "leftColumn": 41,
   "mapCenter": {
-    "lat": 40.7128,
-    "long": -74.006
+    "lat": 42.30030439999999,
+    "long": -71.0455474,
+    "title": "220 Victory Rd, Boston, MA 02122, USA"
   },
   "minWidth": 450,
   "mobileBottomRow": 44,

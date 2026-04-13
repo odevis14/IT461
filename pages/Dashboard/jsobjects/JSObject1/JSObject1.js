@@ -101,7 +101,23 @@ export default {
     showAlert(`Order #${selected.order_id} set to ${newStatus}`, "success");
   },
 
-  async Select2onOptionChange() {
-    return await this.updateSelectedStatus(Select2.selectedOptionValue);
-  }
+async Select2onOptionChange() {
+  return await this.updateSelectedStatus(Select2.selectedOptionValue);
+},
+
+async deleteOrder(orderId) {
+
+  const orders = this.currentOrders();
+
+  const updatedOrders = orders.filter(order =>
+    Number(order.order_id) !== Number(orderId)
+  );
+
+  await storeValue("orders", updatedOrders);
+
+  showAlert(
+    `Order #${orderId} deleted`,
+    "success"
+  ); 
+	}
 }
