@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 51,
+  "bottomRow": 110,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -47,9 +47,6 @@
       "key": "accentColor"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -83,8 +80,8 @@
   "mobileRightColumn": 49,
   "mobileTopRow": 35,
   "needsErrorInfo": false,
-  "originalBottomRow": 51,
-  "originalTopRow": 33,
+  "originalBottomRow": 55,
+  "originalTopRow": 37,
   "parentColumnSpace": 10.5625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -95,7 +92,7 @@
   "searchKey": "",
   "tableData": "{{ appsmith.store.vendors || [] }}",
   "textSize": "0.875rem",
-  "topRow": 33,
+  "topRow": 92,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

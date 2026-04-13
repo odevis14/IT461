@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "8o5drzss60",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Supplies:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 36,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 22,
+  "originalTopRow": 15,
+  "parentColumnSpace": 10.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 56,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Wire Hangers\",\n    \"code\": \"WIRE_HANGERS\"\n  },\n  {\n    \"name\": \"Plastic Hangers\",\n    \"code\": \"PLASTIC_HANGERS\"\n  },\n  {\n    \"name\": \"Garment Bags\",\n    \"code\": \"GARMENT_BAGS\"\n  },\n  {\n    \"name\": \"Laundry Detergent\",\n    \"code\": \"DETERGENT\"\n  },\n\t{\n    \"name\": \"Fabric Softner\",\n    \"code\": \"FABRIC_SOFTNER\"\n  },\n  {\n    \"name\": \"Dry Cleaning Solvent\",\n    \"code\": \"SOLVENT\"\n  },\n  {\n    \"name\": \"Stain Remover\",\n    \"code\": \"STAIN_REMOVER\"\n  },\n  {\n    \"name\": \"Claim Tags\",\n    \"code\": \"TAGS\"\n  },\n  {\n    \"name\": \"Receipt Paper\",\n    \"code\": \"RECEIPT_PAPER\"\n  },\n  {\n    \"name\": \"Packaging Tape\",\n    \"code\": \"TAPE\"\n  },\n  {\n    \"name\": \"Lint Rollers\",\n    \"code\": \"LINT_ROLLERS\"\n  },\n  {\n    \"name\": \"Twist Ties\",\n    \"code\": \"TWIST_TIES\"\n  }\n]",
+  "topRow": 45,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cv2o85adp1",
+  "widgetName": "SupplyDropdown"
+}
