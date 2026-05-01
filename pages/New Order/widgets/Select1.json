@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 38,
+  "bottomRow": 40,
   "boxShadow": "none",
   "defaultOptionValue": "Received",
   "dynamicBindingPathList": [
@@ -54,7 +54,7 @@
   "rightColumn": 63,
   "serverSideFiltering": false,
   "sourceData": "{{[\n  { label: \"Received\", value: \"Received\" },\n  { label: \"Cleaning\", value: \"Cleaning\" },\n  { label: \"Ready for Pickup\", value: \"Ready for Pickup\" },\n  { label: \"Completed\", value: \"Completed\" }\n]}}",
-  "topRow": 31,
+  "topRow": 33,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "twv6ae92l8",

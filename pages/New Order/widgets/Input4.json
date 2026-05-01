@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 38,
+  "bottomRow": 40,
   "boxShadow": "none",
-  "defaultText": "{{ appsmith.store.itemSummary || \"\" }}",
+  "defaultText": "{{Items.itemSummary()}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -18,7 +18,7 @@
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
-  "isDisabled": false,
+  "isDisabled": true,
   "isLoading": false,
   "isRequired": true,
   "isVisible": true,
@@ -49,7 +49,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "showStepArrows": false,
-  "topRow": 31,
+  "topRow": 33,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "zndrxme8yl",

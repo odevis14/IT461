@@ -2,12 +2,18 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 31,
+  "bottomRow": 33,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \"\"))(ItemDropdown.options, ItemDropdown.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -38,8 +44,8 @@
   "mobileRightColumn": 42,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "label",
+  "optionValue": "value",
   "originalBottomRow": 31,
   "originalTopRow": 24,
   "parentColumnSpace": 10.5625,
@@ -50,8 +56,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "serverSideFiltering": false,
-  "sourceData": "[\n  { \"name\": \"Shirt\", \"code\": \"SHIRT\" },\n  { \"name\": \"Pants\", \"code\": \"PANTS\" },\n  { \"name\": \"Blouse\", \"code\": \"BLOUSE\" },\n  { \"name\": \"Skirt\", \"code\": \"SKIRT\" },\n  { \"name\": \"Dress\", \"code\": \"DRESS\" },\n  { \"name\": \"Suit\", \"code\": \"SUIT\" },\n  { \"name\": \"Jacket\", \"code\": \"JACKET\" },\n  { \"name\": \"Coat\", \"code\": \"COAT\" },\n  { \"name\": \"Sweater\", \"code\": \"SWEATER\" }\n]",
-  "topRow": 24,
+  "sourceData": "{{Items.catalogOptions()}}",
+  "topRow": 26,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "6tkav9p1hd",

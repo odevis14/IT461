@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 17,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 42,
   "showStepArrows": false,
-  "topRow": 10,
+  "topRow": 12,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "brmfauro52",
