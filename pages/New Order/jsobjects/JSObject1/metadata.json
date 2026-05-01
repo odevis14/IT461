@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "seedOrders",
-        "value": "[{\n  order_id: 1001,\n  customer: \"John Smith\",\n  phone: \"617-555-1001\",\n  status: \"Received\",\n  dropoff: \"2026-03-16\",\n  pickup: \"2026-03-18\",\n  total: 18,\n  paid: false,\n  item_summary: \"2 shirts, 1 pants\",\n  notes: \"Light starch\"\n}, {\n  order_id: 1002,\n  customer: \"Sarah Lee\",\n  phone: \"617-555-1002\",\n  status: \"Cleaning\",\n  dropoff: \"2026-03-15\",\n  pickup: \"2026-03-17\",\n  total: 25,\n  paid: true,\n  item_summary: \"3 blouses, 1 skirt\",\n  notes: \"Delicate fabric\"\n}]"
+        "value": "[{\n  order_id: 1001,\n  customer: \"John Smith\",\n  phone: \"617-555-1001\",\n  status: \"Received\",\n  dropoff: \"2026-03-16\",\n  pickup: \"2026-03-18\",\n  total: 18,\n  paid: false,\n  item_summary: \"2 shirts, 1 pants\",\n  notes: \"Light starch\",\n  items: [{\n    sku: \"SHIRT\",\n    item: \"Shirt\",\n    service: \"Wash & Press\",\n    quantity: 2,\n    unit_price: 3.50,\n    line_total: 7.00\n  }, {\n    sku: \"PANTS\",\n    item: \"Pants\",\n    service: \"Dry Clean\",\n    quantity: 1,\n    unit_price: 11.00,\n    line_total: 11.00\n  }]\n}, {\n  order_id: 1002,\n  customer: \"Sarah Lee\",\n  phone: \"617-555-1002\",\n  status: \"Cleaning\",\n  dropoff: \"2026-03-15\",\n  pickup: \"2026-03-17\",\n  total: 25,\n  paid: true,\n  item_summary: \"3 blouses, 1 skirt\",\n  notes: \"Delicate fabric\",\n  items: [{\n    sku: \"BLOUSE\",\n    item: \"Blouse\",\n    service: \"Dry Clean\",\n    quantity: 3,\n    unit_price: 6.00,\n    line_total: 18.00\n  }, {\n    sku: \"SKIRT\",\n    item: \"Skirt\",\n    service: \"Dry Clean\",\n    quantity: 1,\n    unit_price: 7.00,\n    line_total: 7.00\n  }]\n}]"
       }
     ]
   }

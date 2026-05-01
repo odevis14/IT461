@@ -6,6 +6,11 @@
     "pageId": "New Order",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
+    "variables": [
+      {
+        "name": "priceCatalog",
+        "value": "[{\n  sku: \"SHIRT\",\n  item: \"Shirt\",\n  service: \"Wash & Press\",\n  unit_price: 3.50\n}, {\n  sku: \"PANTS\",\n  item: \"Pants\",\n  service: \"Dry Clean\",\n  unit_price: 11.00\n}, {\n  sku: \"BLOUSE\",\n  item: \"Blouse\",\n  service: \"Dry Clean\",\n  unit_price: 6.00\n}, {\n  sku: \"SKIRT\",\n  item: \"Skirt\",\n  service: \"Dry Clean\",\n  unit_price: 7.00\n}, {\n  sku: \"DRESS\",\n  item: \"Dress\",\n  service: \"Dry Clean\",\n  unit_price: 16.00\n}, {\n  sku: \"SUIT_2PC\",\n  item: \"Suit - 2 Piece\",\n  service: \"Dry Clean\",\n  unit_price: 22.00\n}, {\n  sku: \"COAT\",\n  item: \"Coat\",\n  service: \"Dry Clean\",\n  unit_price: 24.00\n}, {\n  sku: \"COMFORTER\",\n  item: \"Comforter\",\n  service: \"Laundry\",\n  unit_price: 32.00\n}]"
+      }
+    ]
   }
 }

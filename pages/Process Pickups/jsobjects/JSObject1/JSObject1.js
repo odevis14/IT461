@@ -1,6 +1,6 @@
 export default {
     async handlePickup() {
-        // Now using the exact names from your screenshot
+ 
         const orderId = Input1.text;
         const phone = PhoneInput1.text;
         const pickupDate = DatePicker1.selectedDate;
@@ -10,12 +10,9 @@ export default {
         }
 
         try {
-            // This automates the manual notebook task mentioned in the background [cite: 6, 15]
-            // Ensure you have a database query named 'save_pickup_query'
-            await save_pickup_query.run();
 
-            // This provides the "Network" component and "real time" collection [cite: 8, 21]
-            // Ensure you have an API named 'send_sms_api'
+            await save_pickup_query.run();
+					
             await send_sms_api.run();
 
             showAlert("Pickup for Order " + orderId + " scheduled!", "success");
